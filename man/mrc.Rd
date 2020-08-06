@@ -4,8 +4,15 @@
 \alias{mrc}
 \title{Most Recent Changepoints.}
 \usage{
-mrc(data, cost = "mean", alpha = function(n) 1.5 * log(n), pmax = 5,
-  indexed = FALSE, mad = FALSE, phi = 0)
+mrc(
+  data,
+  cost = "mean",
+  alpha = function(n) 1.5 * log(n),
+  pmax = 5,
+  indexed = FALSE,
+  mad = FALSE,
+  phi = 0
+)
 }
 \arguments{
 \item{data}{An \eqn{n \times N} matrix or data frame representing a length \eqn{n} time series containing observations of \eqn{N} variables. The data can contain missing values

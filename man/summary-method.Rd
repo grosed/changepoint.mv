@@ -4,7 +4,6 @@
 \name{summary}
 \alias{summary}
 \alias{summary,changepoint.mv.class-method}
-\alias{summary}
 \alias{summary,changepoint.mv.mrc.class-method}
 \alias{library(changepoint.mv)}
 \alias{data(mrcexample)}

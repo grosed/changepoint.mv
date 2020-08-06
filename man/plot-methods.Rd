@@ -6,8 +6,7 @@
 \alias{plot,changepoint.mv.mrc.class,ANY-method}
 \title{Visualisation of data and changepoint locations.}
 \usage{
-\S4method{plot}{changepoint.mv.mrc.class,ANY}(x, p = MDL(x), group = FALSE,
-  display.variable.names = TRUE, show = TRUE)
+\S4method{plot}{changepoint.mv.mrc.class,ANY}(x, p = MDL(x), group = FALSE, display.variable.names = TRUE, show = TRUE)
 }
 \arguments{
 \item{x}{An S4 class returned by \code{\link{mrc}}.}

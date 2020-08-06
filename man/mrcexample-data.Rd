@@ -4,7 +4,9 @@
 \name{mrcexample}
 \alias{mrcexample}
 \title{Simulated data.}
-\format{A matrix with 100 rows and 500 columns.}
+\format{
+A matrix with 100 rows and 500 columns.
+}
 \usage{
 data(mrcexample)
 }
